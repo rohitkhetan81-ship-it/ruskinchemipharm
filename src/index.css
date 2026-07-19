@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  
+  --color-clinical-blue: #0E294B; /* Rich brand navy blue matching the logo background */
+  --color-clinical-light: #F4F7FA;
+  --color-eco-green: #C5A059; /* Ruskin Gold matching the logo brand color */
+  --color-eco-light: #FAF7F0; /* Warm beige/gold tint for light sections */
+
+  /* Overwrite default emerald and green colors to Ruskin Gold variants to dynamically recolor the entire app! */
+  --color-emerald-50: #FAF8F2;
+  --color-emerald-100: #F5EEE0;
+  --color-emerald-200: #EADEC5;
+  --color-emerald-300: #DEC9A3;
+  --color-emerald-400: #D3B57E;
+  --color-emerald-500: #CBA258;
+  --color-emerald-600: #C5A059;
+  --color-emerald-700: #B08E4E;
+  --color-emerald-800: #997C43;
+  --color-emerald-900: #735C32;
+
+  --color-green-50: #FAF8F2;
+  --color-green-100: #F5EEE0;
+  --color-green-200: #EADEC5;
+  --color-green-300: #DEC9A3;
+  --color-green-400: #D3B57E;
+  --color-green-500: #CBA258;
+  --color-green-600: #C5A059;
+  --color-green-700: #B08E4E;
+  --color-green-800: #997C43;
+  --color-green-900: #735C32;
+}
+
+/* Customized scrollbars for table data */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
